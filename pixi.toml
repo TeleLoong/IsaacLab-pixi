@@ -1,0 +1,27 @@
+[project]
+authors = ["Ericsii <ericfengx@foxmail.com>"]
+channels = ["nvidia", "conda-forge"]
+description = "Add a short description here"
+name = "isaaclab"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[dependencies]
+python = "3.10.*"
+
+[feature.gpu]
+system-requirements = { cuda = "12.0" }
+[feature.gpu.pypi-dependencies]
+torch = { version = "==2.4.0", index = "https://download.pytorch.org/whl/cu124" }
+isaacsim = { url = "https://pypi.nvidia.com/isaacsim/isaacsim-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=d7cec2130e81386db34bf389b5924168efe6c1a90fd686111e4741a4a50c80af" }
+isaacsim-extscache-physics = { url = "https://pypi.nvidia.com/isaacsim-extscache-physics/isaacsim_extscache_physics-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=61f13f6d1b0aeef9ab522a7c3c7ffd414ac390840ae855a80fa49d558990481b" }
+isaacsim-extscache-kit = { url = "https://pypi.nvidia.com/isaacsim-extscache-kit/isaacsim_extscache_kit-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=2ff59ec1c8fedc7505aff54d6e1a2c15739874307a97effd33680ef27f973c7a" }
+isaacsim-extscache-kit-sdk = { url = "https://pypi.nvidia.com/isaacsim-extscache-kit-sdk/isaacsim_extscache_kit_sdk-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=edceebb3325b3c4bdaf1e5b19bb1251c895daaf59348990726bfee3ca0ce7e60" }
+omni-isaac-lab = { path = "IsaacLab/source/extensions/omni.isaac.lab", editable = true }
+omni-isaac-lab_assets = { path = "IsaacLab/source/extensions/omni.isaac.lab_assets", editable = true }
+omni-isaac-lab_tasks = { path = "IsaacLab/source/extensions/omni.isaac.lab_tasks", editable = true, extras = [
+  "all",
+] }
+
+[environments]
+default = { features = ["gpu"] }
