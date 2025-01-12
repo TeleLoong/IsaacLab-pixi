@@ -28,3 +28,9 @@ pixi install
 ```bash
 pixi shell
 ```
+
+- Try a simple example
+
+```bash
+python IsaacLab/source/standalone/tutorials/00_sim/create_empty.py
+```
