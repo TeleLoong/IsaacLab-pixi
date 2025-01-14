@@ -23,14 +23,9 @@ cd IsaacLab-pixi
 pixi install
 ```
 
-- Activate the environment
-
-```bash
-pixi shell
-```
-
 - Try a simple example
 
 ```bash
+pixi shell # Activate the environment
 python IsaacLab/source/standalone/tutorials/00_sim/create_empty.py
 ```
