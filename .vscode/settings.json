@@ -1,0 +1,7 @@
+{
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/IsaacLab/source/extensions/omni.isaac.lab_tasks",
+    "${workspaceFolder}/IsaacLab/source/extensions/omni.isaac.lab",
+    "${workspaceFolder}/IsaacLab/source/extensions/omni.isaac.lab_assets"
+  ]
+}
