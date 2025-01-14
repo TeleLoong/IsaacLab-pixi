@@ -126,30 +126,30 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/5c/f9/f78e7f5ac8077c481bf6b43b8bc736605363034b3d5eb3ce8eb79f53f5f1/imageio-2.36.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/fe/44/c9e18a73dfd939b5b0ec843870ac72f1f6c17e31a03149b687a85465bff7/imageio_ffmpeg-0.5.1-py3-none-manylinux2010_x86_64.whl
       - pypi: direct+https://pypi.nvidia.com/isaacsim/isaacsim-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=d7cec2130e81386db34bf389b5924168efe6c1a90fd686111e4741a4a50c80af
-      - pypi: https://files.pythonhosted.org/packages/86/af/4f09ee828ef69ae5af56d95e2e139ac086d7e34c6d1468d615fcea3cb5f7/isaacsim_app-4.2.0.2.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/74/4c/5c12c2a767f83031b9acbe8894beb6d13a436e7613c6ad78e98cb1900afd/isaacsim_asset-4.2.0.2.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/86/f3/79eb20eef8e5cfd6741281c5188d7a621db2ce8bbcf18ac8d215abf1f6b7/isaacsim_benchmark-4.2.0.2.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/1e/a2/3cd3c4bba8919d37a53d05dfb72849061ebd05bbc51e18b64f74c1c15556/isaacsim_code_editor-4.2.0.2.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/97/10/d803f41166f0d95ded6d74e696ba144a01063cee1058afd75cf22c87436e/isaacsim_core-4.2.0.2.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/30/29/304ba9973d154fbb1eed8303b497f3f768d1f1ddde5a3bad63173c8c8e39/isaacsim_cortex-4.2.0.2.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/a6/3c/4f44601b95dbda015ba02b49ba19b4abe7c04259d978809e40fb6d3fb1e1/isaacsim_example-4.2.0.2.tar.gz
+      - pypi: direct+https://pypi.nvidia.com/isaacsim-app/isaacsim_app-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=51224da7d74179055456f7a6448e940f0a186249eaaa2b77e96f368a95dc06cb
+      - pypi: direct+https://pypi.nvidia.com/isaacsim-asset/isaacsim_asset-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=b30a0929c5a5140906f83f4c333971196f3a9f01697fbd2abf866e26e1c7d276
+      - pypi: direct+https://pypi.nvidia.com/isaacsim-benchmark/isaacsim_benchmark-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=2de38ae6a6fc0637fa12bc29f668f3f04dad6f7c639a370b0300a48c174c098d
+      - pypi: direct+https://pypi.nvidia.com/isaacsim-code-editor/isaacsim_code_editor-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=2d4c4431fd1a5e30e169eb16695354d5956b51541689fb20b4f4167e08256675
+      - pypi: direct+https://pypi.nvidia.com/isaacsim-core/isaacsim_core-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=ca73ce9d2ff9d693cd8fcf44e67569a2e0cbc44009e58c39506bc851d23ad2a6
+      - pypi: direct+https://pypi.nvidia.com/isaacsim-cortex/isaacsim_cortex-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=7a66feb13acf9e34df35829335444adac0b37621874a7693c93813f52d39d629
+      - pypi: direct+https://pypi.nvidia.com/isaacsim-example/isaacsim_example-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=d30e080b373b7aacd4c0d714062bd5c20597c4e08a63b2eefb329d416fa18601
       - pypi: direct+https://pypi.nvidia.com/isaacsim-extscache-kit/isaacsim_extscache_kit-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=2ff59ec1c8fedc7505aff54d6e1a2c15739874307a97effd33680ef27f973c7a
       - pypi: direct+https://pypi.nvidia.com/isaacsim-extscache-kit-sdk/isaacsim_extscache_kit_sdk-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=edceebb3325b3c4bdaf1e5b19bb1251c895daaf59348990726bfee3ca0ce7e60
       - pypi: direct+https://pypi.nvidia.com/isaacsim-extscache-physics/isaacsim_extscache_physics-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=61f13f6d1b0aeef9ab522a7c3c7ffd414ac390840ae855a80fa49d558990481b
-      - pypi: https://files.pythonhosted.org/packages/a7/26/3c6f3c1c3020048d0b952b4e8aee89c572af3c38211d5ae9e8d2f44fb9c6/isaacsim_gui-4.2.0.2.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/e4/ec/e1c4278e4abe0208b5f391761be8301c27f0ebab555155485fc0c7bdd54e/isaacsim_kernel-4.2.0.2.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/e4/62/d717e8d687efcd26e20730ad2dd7229b907d1e9d86f92a63aad4bf8ad9fe/isaacsim_replicator-4.2.0.2.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/ad/34/f4d76df53c9210543290bc302b5a11220c556639c0189bc02a323459c091/isaacsim_rl-4.2.0.2.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/5f/44/72dd6184e73ced8aafea52bf8cb33b30e5b596e3375b0446e98de27acab3/isaacsim_robot-4.2.0.2.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/74/8e/2d3b86995f000dc7ce9166b1848d4469866524ad129f192384685dc4847b/isaacsim_robot_motion-4.2.0.2.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/88/b2/f6faa50ddad1285549483b4e1e7ae52c3a3c455a3073eb394878ceb34a6e/isaacsim_robot_setup-4.2.0.2.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/43/52/73d5c6a7eaf3cc789bff60bed4eec14b3dbb070066a8d20c07f946b67170/isaacsim_ros1-4.2.0.2.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/64/69/3e158a209402fac1b10cb92fac62e1ef9e6ec3f1a41a72016e357e525dff/isaacsim_ros2-4.2.0.2.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/d2/dc/4640155628e73a99053e0cc481367c6f9e2f031f0b5d1ee41a0d96bd43a5/isaacsim_sensor-4.2.0.2.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/a5/3d/c21377ed8b1bf1a6f2c3ef146652f48134308e9807f6a573711acaea489e/isaacsim_storage-4.2.0.2.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/32/2c/4fd0f5d8e7ef8f57417a41bea4653d8d1439a0c30abf25b3b0d3c009421e/isaacsim_template-4.2.0.2.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/45/43/bc69acaf8ea438e1f2424bf7f9226c9a0caefa658f9e05bd992a96b1b42b/isaacsim_test-4.2.0.2.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/a1/0d/a9247259dc72262c7d5fdca71aa774989721cc9a58b5ea418ac179e1f29e/isaacsim_utils-4.2.0.2.tar.gz
+      - pypi: direct+https://pypi.nvidia.com/isaacsim-gui/isaacsim_gui-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=0fa88e3613499670a45dbda745ebc486426b2bafa4c868ce23e44e7396095f66
+      - pypi: direct+https://pypi.nvidia.com/isaacsim-kernel/isaacsim_kernel-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=8c44f6e4a32b160682f148e098fe8fe9aec4406d2c203e6f0b0c3b48bd46313e
+      - pypi: direct+https://pypi.nvidia.com/isaacsim-replicator/isaacsim_replicator-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=49e5cad782ee40db1735325278640dc9627d64d71d7a7eded053c0969dc48023
+      - pypi: direct+https://pypi.nvidia.com/isaacsim-rl/isaacsim_rl-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=8297cde072f44087192f8db909bab2d4777dd6e9abc130d30796a9f812439401
+      - pypi: direct+https://pypi.nvidia.com/isaacsim-robot/isaacsim_robot-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=b17a028d88e364d1b8810c6fa855b4e7fc35b804554adad459ea84cb2696ed29
+      - pypi: direct+https://pypi.nvidia.com/isaacsim-robot-motion/isaacsim_robot_motion-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=e72b6b5126f9f04cf3b401ec33b1712963b4afc2d8081822cf405288e98c19a7
+      - pypi: direct+https://pypi.nvidia.com/isaacsim-robot-setup/isaacsim_robot_setup-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=6f2fc9f7a00f81513468f5de77acf7d5797f698e941b1c0c119149dd675700cc
+      - pypi: direct+https://pypi.nvidia.com/isaacsim-ros1/isaacsim_ros1-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=5543acbb212b1eda68d5f46f9634e0e6423bb61a663ea419f989f852afc85720
+      - pypi: direct+https://pypi.nvidia.com/isaacsim-ros2/isaacsim_ros2-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=3d7642f70c75da89e94a7cf715ee86d123761ebfe5ae252838617c3322875bd0
+      - pypi: direct+https://pypi.nvidia.com/isaacsim-sensor/isaacsim_sensor-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=521d4bed279aa6b79d5c82d87d6702f605d9c058bcda876c1e8dffa1ed1468e7
+      - pypi: direct+https://pypi.nvidia.com/isaacsim-storage/isaacsim_storage-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=06c5847bfe373aee0073bd29b33a352e7c7bdfa9083de1967e6a6fac75ef7eea
+      - pypi: direct+https://pypi.nvidia.com/isaacsim-template/isaacsim_template-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=dc83a20001a0fec7ebfbf29b28371a4c4a696f265a346b06aefb0ab1f58059ac
+      - pypi: direct+https://pypi.nvidia.com/isaacsim-test/isaacsim_test-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=526f0e9f7ae5df073991c9d2ef83ae3627ebbdc38932bc82eb3243b8d9089b7e
+      - pypi: direct+https://pypi.nvidia.com/isaacsim-utils/isaacsim_utils-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=bf787163d85f182d08b8bd5dd61e21909c52c979cca44cb4ee06777ecdb443df
       - pypi: https://files.pythonhosted.org/packages/bd/0f/2ba5fbcd631e3e88689309dbe978c5769e883e4b84ebfe7da30b43275c5a/jinja2-3.1.5-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/31/b4/b9b800c45527aadd64d5b442f9b932b00648617eb5d63d2c7a6587b7cafc/jmespath-1.0.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/de/c6/7b9bb8044e150d4d1558423a1568e4f227193662a02231064e3824f37e0a/kiwisolver-1.4.8-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
@@ -172,7 +172,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/a0/37/948257090a0b9eddade74490b521490b7fe748a70cad72fd8fbda692f6d4/nvidia_nccl_cu11-2.20.5-py3-none-manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/b5/ad/973a187b137a3d45dc3faac421ef1275fb41fc169fd3889e2d5ceb0daa54/nvidia_nvtx_cu11-11.8.86-py3-none-manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/e3/94/1843518e420fa3ed6919835845df698c7e27e183cb997394e4a670973a65/omegaconf-2.3.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/7b/e7/85b0e2897a379375e183d53c1f2b8dac76d43b4d4316e91fef80fa905799/omniverse_kit-106.1.0.140981.tar.gz
+      - pypi: direct+https://pypi.nvidia.com/omniverse-kit/omniverse_kit-106.1.0.140981-cp310-none-manylinux_2_34_x86_64.whl#sha256=a36fd335a6ddc0c5e3fae13bc7876b31873b6ce23fbd58a462d32f96f49d150c
       - pypi: https://files.pythonhosted.org/packages/c6/7e/5031717c0636e6074764a2f61a459a3ecd46c20d8b83a1f1cd2513a76160/onnx-1.16.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/3f/a4/d2537f47fd7fcfba966bd806e3ec18e7ee1681056d4b0a9c8d983983e4d5/opencv_python-4.10.0.84-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/ed/83/dc03ac8a478af513132024759da13b20126a4407b07ad046d9c76e2c5e55/osqp-0.6.7.post3-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
@@ -232,8 +232,6 @@ packages:
 - conda: https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
   sha256: fe51de6107f9edc7aa4f786a70f4a883943bc9d39b3bb7307c04c41410990726
   md5: d7c89558ba9fa0495403155b64376d81
-  arch: x86_64
-  platform: linux
   license: None
   purls: []
   size: 2562
@@ -247,8 +245,6 @@ packages:
   - libgomp >=7.5.0
   constrains:
   - openmp_impl 9999
-  arch: x86_64
-  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   purls: []
@@ -292,8 +288,6 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc-ng >=12
-  arch: x86_64
-  platform: linux
   license: bzip2-1.0.6
   license_family: BSD
   purls: []
@@ -302,8 +296,6 @@ packages:
 - conda: https://conda.anaconda.org/conda-forge/linux-64/ca-certificates-2024.12.14-hbcca054_0.conda
   sha256: 1afd7274cbc9a334d6d0bc62fa760acc7afdaceb0b91a8df370ec01fd75dc7dd
   md5: 720523eb0d6a9b0f6120c16b2aa4e7de
-  arch: x86_64
-  platform: linux
   license: ISC
   purls: []
   size: 157088
@@ -354,15 +346,11 @@ packages:
   - cuda-demo-suite >=11.8.86
   - cuda-runtime >=11.8.0
   - cuda-toolkit >=11.8.0
-  arch: x86_64
-  platform: linux
   size: 1449
   timestamp: 1664475582997
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-cccl-12.4.127-0.tar.bz2
   sha256: 0818bede93df28b2ab7993b591f73f6e00a680145011a4a4ad8c3fb10f0c9df2
   md5: 90bcbf580038ee64d11555ed97d0eab0
-  arch: x86_64
-  platform: linux
   size: 1460617
   timestamp: 1710541403303
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-command-line-tools-12.4.1-0.tar.bz2
@@ -375,8 +363,6 @@ packages:
   - cuda-nvprof >=12.4.127
   - cuda-nvtx >=12.4.127
   - cuda-sanitizer-api >=12.4.127
-  arch: x86_64
-  platform: linux
   size: 1890
   timestamp: 1711654453765
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-compiler-12.6.2-0.conda
@@ -388,16 +374,12 @@ packages:
   - cuda-cuxxfilt
   - cuda-nvcc
   - cuda-nvprune
-  arch: x86_64
-  platform: linux
   license: LicenseRef-NVIDIA-End-User-License-Agreement
   size: 16973
   timestamp: 1726770213457
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-cudart-12.4.127-0.tar.bz2
   sha256: 5b229895b7684dfe8f923742036e15ebf9a6a0d304aa32e3792c12931a94c82b
   md5: 3f783f2954e59ff9f8df2b2dbc854266
-  arch: x86_64
-  platform: linux
   size: 203174
   timestamp: 1710544194723
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-cudart-dev-12.4.127-0.tar.bz2
@@ -406,8 +388,6 @@ packages:
   depends:
   - cuda-cccl
   - cuda-cudart >=12.4.127
-  arch: x86_64
-  platform: linux
   size: 422630
   timestamp: 1710544195499
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-cudart-static-12.4.127-0.tar.bz2
@@ -415,22 +395,16 @@ packages:
   md5: 5497a702fba55380e82f853028742953
   depends:
   - cuda-cudart-dev >=12.4.127
-  arch: x86_64
-  platform: linux
   size: 1109517
   timestamp: 1710544196278
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-cuobjdump-12.4.127-0.tar.bz2
   sha256: e510fe72282223c4c289af825c65bac7fb0e00419707edd66931776a575e5b5f
   md5: 001245d79965267fe26f742134bcbefd
-  arch: x86_64
-  platform: linux
   size: 308750
   timestamp: 1710542943296
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-cupti-12.4.127-0.tar.bz2
   sha256: d07f6fbd627a1903d1b1fb2dd0b20fa1121e382408af0d8200808b8d085cb6d6
   md5: a77ad7a9e4edf53329898e5fdaccdc34
-  arch: x86_64
-  platform: linux
   size: 17247609
   timestamp: 1710548034158
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-cupti-static-12.4.127-0.tar.bz2
@@ -438,43 +412,31 @@ packages:
   md5: 6a8d19b30f7e5339d7bef8084860ba8a
   depends:
   - cuda-cupti >=12.4.127
-  arch: x86_64
-  platform: linux
   size: 11900838
   timestamp: 1710548047937
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-cuxxfilt-12.4.127-0.tar.bz2
   sha256: e1a0d0e114f9dcc6591a5bce395e1162c528d17af012d7ca662fa7beb2038832
   md5: 657cd4f3f23b5f3e09ce78737692dfea
-  arch: x86_64
-  platform: linux
   size: 302608
   timestamp: 1710544312462
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-demo-suite-12.4.127-0.tar.bz2
   sha256: c7a917fe39f779d049eec2c1fca4c460b19ebfc991f0df33cd30c346f42e7b19
   md5: 0bf7640c413c2f32512a3430505998dd
-  arch: x86_64
-  platform: linux
   size: 5258372
   timestamp: 1710543338384
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-documentation-12.4.127-0.tar.bz2
   sha256: 57887b72711c637f7dd34853cdd1caccb0d1db757a5a1872155c16182b95baa0
   md5: 1410656e3b0350b35549c922c5dfdb53
-  arch: x86_64
-  platform: linux
   size: 91629
   timestamp: 1710540364040
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-driver-dev-12.4.127-0.tar.bz2
   sha256: 4cca33c1d25c32e14d9af3a600f6876939f31f0322ebe3011008cd3f814fd8f6
   md5: 309fe813e7d4be5b6e317e8adc5ed4f4
-  arch: x86_64
-  platform: linux
   size: 18557
   timestamp: 1710544195085
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-gdb-12.4.127-0.tar.bz2
   sha256: b66f62901a846328bf999be246098ff9dc07fb098b089fe995cc7a6b7b0eb664
   md5: f36a1e5fef08c9980991e3ed27fcd644
-  arch: x86_64
-  platform: linux
   size: 6056326
   timestamp: 1710546537965
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-libraries-12.6.2-0.conda
@@ -494,8 +456,6 @@ packages:
   - libnvfatbin
   - libnvjitlink
   - libnvjpeg
-  arch: x86_64
-  platform: linux
   license: LicenseRef-NVIDIA-End-User-License-Agreement
   size: 16947
   timestamp: 1726770240873
@@ -519,8 +479,6 @@ packages:
   - libnvfatbin-dev
   - libnvjitlink-dev
   - libnvjpeg-dev
-  arch: x86_64
-  platform: linux
   license: LicenseRef-NVIDIA-End-User-License-Agreement
   size: 16707
   timestamp: 1722030231047
@@ -539,57 +497,41 @@ packages:
   - libcusparse-static >=12.3.1.170
   - libnpp-static >=12.2.5.30
   - libnvjpeg-static >=12.3.1.117
-  arch: x86_64
-  platform: linux
   size: 1930
   timestamp: 1711654517201
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-nsight-12.4.127-0.tar.bz2
   sha256: 809499163a96812af3a2a4058cdf7affc1c638eabf255e6f39efdcd75a67f3eb
   md5: 031e25cc0010cecfa62249acc3939ee6
-  arch: x86_64
-  platform: linux
   size: 119222580
   timestamp: 1710541146699
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-nvcc-12.4.131-0.tar.bz2
   sha256: 8342cc8ca1d82923bf46ee42f6f61e53b7b0f16cc5189573259ab9a655b78997
   md5: 3fbe761aaf3b7602f107f75008c3a4de
-  arch: x86_64
-  platform: linux
   size: 65674958
   timestamp: 1711621862142
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-nvdisasm-12.4.127-0.tar.bz2
   sha256: 2635c44a557ab45c46265e9af7694d00956f6bd8c031d5a10da83e6472d26aae
   md5: 2011077477fc67866170f04bcac0dcd0
-  arch: x86_64
-  platform: linux
   size: 50215513
   timestamp: 1710544140559
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-nvml-dev-12.4.127-0.tar.bz2
   sha256: 81897bec35368e956b21c91d1e8fb78b87b344d8ecd0ee0d8f9d2cd1e41d53ac
   md5: 946441b19210bfb6cfa4c403148d0a5d
-  arch: x86_64
-  platform: linux
   size: 181774
   timestamp: 1710541139047
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-nvprof-12.4.127-0.tar.bz2
   sha256: 75597b69222f52c0de92e72f0431b133a2ac6945dc3456f3a4c2c9da4681f0f3
   md5: bfdbdb5a65e35ef10ca14723de7fd9b5
-  arch: x86_64
-  platform: linux
   size: 4960988
   timestamp: 1710549514085
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-nvprune-12.4.127-0.tar.bz2
   sha256: 9d4bc4d917220a88c21e50fef757988b763ffa92ceb3e88d39460db6777f2821
   md5: b50c01959e8cadfd2c6e85de154f39b2
-  arch: x86_64
-  platform: linux
   size: 67338
   timestamp: 1710544016364
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-nvrtc-12.4.127-0.tar.bz2
   sha256: 14e20e2692104d95987f991faebffba62d4292b8f3cdd17fe1a2165b9a2146c9
   md5: d4d0da7490723dabe3d5f985ef4a963a
-  arch: x86_64
-  platform: linux
   size: 22048402
   timestamp: 1710544297651
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-nvrtc-dev-12.4.127-0.tar.bz2
@@ -597,8 +539,6 @@ packages:
   md5: 09b6b29a34947c360c3ede8e4339f48e
   depends:
   - cuda-nvrtc >=12.4.127
-  arch: x86_64
-  platform: linux
   size: 12786
   timestamp: 1710544307760
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-nvrtc-static-12.4.127-0.tar.bz2
@@ -606,15 +546,11 @@ packages:
   md5: 913215e628c1dc2e909c7abb7a1c19f9
   depends:
   - cuda-nvrtc-dev >=12.4.127
-  arch: x86_64
-  platform: linux
   size: 22957256
   timestamp: 1710544308221
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-nvtx-12.4.127-0.tar.bz2
   sha256: f5536c0e2ad3ccf4479a886933512240220916549c03d9dd2a1db73b1e32da94
   md5: 7c84fc94b4d717932d71f6446e9cbca4
-  arch: x86_64
-  platform: linux
   size: 59195
   timestamp: 1710543545369
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-nvvp-12.4.127-0.tar.bz2
@@ -623,15 +559,11 @@ packages:
   depends:
   - cuda-nvdisasm
   - cuda-nvprof
-  arch: x86_64
-  platform: linux
   size: 120069229
   timestamp: 1710550059475
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-opencl-12.4.127-0.tar.bz2
   sha256: 94f15dcc7bb763d7afab2042579023188aeeee2e7d563bf2c67d5795526a2376
   md5: 3de25496d2b46d83abb8c910ea9842cb
-  arch: x86_64
-  platform: linux
   size: 11830
   timestamp: 1710543602704
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-opencl-dev-12.4.127-0.tar.bz2
@@ -639,15 +571,11 @@ packages:
   md5: 6c7eb107051c5193974b6902b6fb46e1
   depends:
   - cuda-opencl >=12.4.127
-  arch: x86_64
-  platform: linux
   size: 73406
   timestamp: 1710543602908
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-profiler-api-12.4.127-0.tar.bz2
   sha256: 18bca2d9f35b3f1e9b1924bdcf1424077346487f553c25ed5cade7598a9129b3
   md5: 5a12f7616c05770a6df75dd585b9b608
-  arch: x86_64
-  platform: linux
   size: 19274
   timestamp: 1710544073179
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-runtime-12.6.2-0.conda
@@ -656,16 +584,12 @@ packages:
   depends:
   - __linux
   - cuda-libraries 12.6.2.*
-  arch: x86_64
-  platform: linux
   license: LicenseRef-NVIDIA-End-User-License-Agreement
   size: 16905
   timestamp: 1726770304705
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-sanitizer-api-12.4.127-0.tar.bz2
   sha256: 479ef4c2877f59d11b4125b7e4147d1aa226906975544904022076491bf20b9f
   md5: 3d8b2d25db78ccdbe63cae75f8056a8d
-  arch: x86_64
-  platform: linux
   size: 17962299
   timestamp: 1710553494409
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-toolkit-12.4.1-0.tar.bz2
@@ -679,8 +603,6 @@ packages:
   - cuda-libraries-static >=12.4.1
   - cuda-nvml-dev >=12.4.127
   - cuda-tools >=12.4.1
-  arch: x86_64
-  platform: linux
   size: 1893
   timestamp: 1711654625618
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-tools-12.4.1-0.tar.bz2
@@ -690,8 +612,6 @@ packages:
   - cuda-command-line-tools >=12.4.1
   - cuda-visual-tools >=12.4.1
   - gds-tools >=1.9.1.3
-  arch: x86_64
-  platform: linux
   size: 1865
   timestamp: 1711654609936
 - conda: https://conda.anaconda.org/nvidia/linux-64/cuda-visual-tools-12.6.0-0.tar.bz2
@@ -703,8 +623,6 @@ packages:
   - cuda-nvml-dev
   - cuda-nvvp
   - nsight-compute
-  arch: x86_64
-  platform: linux
   license: LicenseRef-NVIDIA-End-User-License-Agreement
   size: 16699
   timestamp: 1722030253845
@@ -907,8 +825,6 @@ packages:
   md5: c434e7cafa6663ecf3953f00a099ac23
   depends:
   - libcufile >=1.9.1.3
-  arch: x86_64
-  platform: linux
   size: 42707168
   timestamp: 1710365911168
 - pypi: https://files.pythonhosted.org/packages/a0/61/5c78b91c3143ed5c14207f463aecfc8f9dbb5092fb2869baf37c273b2705/gitdb-4.0.12-py3-none-any.whl
@@ -1287,41 +1203,36 @@ packages:
   - isaacsim-test==4.2.0.2
   - isaacsim-utils==4.2.0.2
   requires_python: ==3.10.*
-- pypi: https://files.pythonhosted.org/packages/86/af/4f09ee828ef69ae5af56d95e2e139ac086d7e34c6d1468d615fcea3cb5f7/isaacsim_app-4.2.0.2.tar.gz
+- pypi: direct+https://pypi.nvidia.com/isaacsim-app/isaacsim_app-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=51224da7d74179055456f7a6448e940f0a186249eaaa2b77e96f368a95dc06cb
   name: isaacsim-app
   version: 4.2.0.2
-  sha256: 3625420f3a1a34555f0c4ae672104d5f060df7c1b13c275e6b90eed7c93721e1
   requires_dist:
   - isaacsim-kernel==4.2.0.2
   - pyperclip
   requires_python: ==3.10.*
-- pypi: https://files.pythonhosted.org/packages/74/4c/5c12c2a767f83031b9acbe8894beb6d13a436e7613c6ad78e98cb1900afd/isaacsim_asset-4.2.0.2.tar.gz
+- pypi: direct+https://pypi.nvidia.com/isaacsim-asset/isaacsim_asset-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=b30a0929c5a5140906f83f4c333971196f3a9f01697fbd2abf866e26e1c7d276
   name: isaacsim-asset
   version: 4.2.0.2
-  sha256: f2dc2788a789179ce8d833519c24eab9e5688e002027e8bc09749c0d0ea1e4b1
   requires_dist:
   - isaacsim-utils==4.2.0.2
   - isaacsim-storage==4.2.0.2
   - pillow
   requires_python: ==3.10.*
-- pypi: https://files.pythonhosted.org/packages/86/f3/79eb20eef8e5cfd6741281c5188d7a621db2ce8bbcf18ac8d215abf1f6b7/isaacsim_benchmark-4.2.0.2.tar.gz
+- pypi: direct+https://pypi.nvidia.com/isaacsim-benchmark/isaacsim_benchmark-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=2de38ae6a6fc0637fa12bc29f668f3f04dad6f7c639a370b0300a48c174c098d
   name: isaacsim-benchmark
   version: 4.2.0.2
-  sha256: 41157eca49e4d37d5b40537b83cb461359979b2f6e846a42e63e2c700ff8b855
   requires_dist:
   - isaacsim-robot==4.2.0.2
   requires_python: ==3.10.*
-- pypi: https://files.pythonhosted.org/packages/1e/a2/3cd3c4bba8919d37a53d05dfb72849061ebd05bbc51e18b64f74c1c15556/isaacsim_code_editor-4.2.0.2.tar.gz
+- pypi: direct+https://pypi.nvidia.com/isaacsim-code-editor/isaacsim_code_editor-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=2d4c4431fd1a5e30e169eb16695354d5956b51541689fb20b4f4167e08256675
   name: isaacsim-code-editor
   version: 4.2.0.2
-  sha256: 5485b86a37382d6109b6512fc6beb4287a60d1170ba19af9ad656e3e095dc9f5
   requires_dist:
   - isaacsim-kernel==4.2.0.2
   requires_python: ==3.10.*
-- pypi: https://files.pythonhosted.org/packages/97/10/d803f41166f0d95ded6d74e696ba144a01063cee1058afd75cf22c87436e/isaacsim_core-4.2.0.2.tar.gz
+- pypi: direct+https://pypi.nvidia.com/isaacsim-core/isaacsim_core-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=ca73ce9d2ff9d693cd8fcf44e67569a2e0cbc44009e58c39506bc851d23ad2a6
   name: isaacsim-core
   version: 4.2.0.2
-  sha256: 9b80ca2e2fdddad877cc9a8c293ed75f84e14bbe8ff7d59494aa6b5b5ad8a4f9
   requires_dist:
   - isaacsim-kernel==4.2.0.2
   - numpy<2.0.0
@@ -1333,18 +1244,16 @@ packages:
   - boto3
   - pyyaml
   requires_python: ==3.10.*
-- pypi: https://files.pythonhosted.org/packages/30/29/304ba9973d154fbb1eed8303b497f3f768d1f1ddde5a3bad63173c8c8e39/isaacsim_cortex-4.2.0.2.tar.gz
+- pypi: direct+https://pypi.nvidia.com/isaacsim-cortex/isaacsim_cortex-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=7a66feb13acf9e34df35829335444adac0b37621874a7693c93813f52d39d629
   name: isaacsim-cortex
   version: 4.2.0.2
-  sha256: 5d675dbb88f159fcd78dde2041a4e91a0ab2afc3f17cf5a4368b7ff3a535c744
   requires_dist:
   - isaacsim-robot==4.2.0.2
   - isaacsim-ros1==4.2.0.2
   requires_python: ==3.10.*
-- pypi: https://files.pythonhosted.org/packages/a6/3c/4f44601b95dbda015ba02b49ba19b4abe7c04259d978809e40fb6d3fb1e1/isaacsim_example-4.2.0.2.tar.gz
+- pypi: direct+https://pypi.nvidia.com/isaacsim-example/isaacsim_example-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=d30e080b373b7aacd4c0d714062bd5c20597c4e08a63b2eefb329d416fa18601
   name: isaacsim-example
   version: 4.2.0.2
-  sha256: 5b29b8c3f8143a01926ed23f8febfd0a3f036f24902d4ec8b0b7288507f82758
   requires_dist:
   - isaacsim-cortex==4.2.0.2
   requires_python: ==3.10.*
@@ -1360,111 +1269,97 @@ packages:
   name: isaacsim-extscache-physics
   version: 4.2.0.2
   requires_python: ==3.10.*
-- pypi: https://files.pythonhosted.org/packages/a7/26/3c6f3c1c3020048d0b952b4e8aee89c572af3c38211d5ae9e8d2f44fb9c6/isaacsim_gui-4.2.0.2.tar.gz
+- pypi: direct+https://pypi.nvidia.com/isaacsim-gui/isaacsim_gui-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=0fa88e3613499670a45dbda745ebc486426b2bafa4c868ce23e44e7396095f66
   name: isaacsim-gui
   version: 4.2.0.2
-  sha256: 5f0f429fff228814c8c2b15e823cda634b6d303c2fd35b506a1012d3f6438981
   requires_dist:
   - isaacsim-core==4.2.0.2
   requires_python: ==3.10.*
-- pypi: https://files.pythonhosted.org/packages/e4/ec/e1c4278e4abe0208b5f391761be8301c27f0ebab555155485fc0c7bdd54e/isaacsim_kernel-4.2.0.2.tar.gz
+- pypi: direct+https://pypi.nvidia.com/isaacsim-kernel/isaacsim_kernel-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=8c44f6e4a32b160682f148e098fe8fe9aec4406d2c203e6f0b0c3b48bd46313e
   name: isaacsim-kernel
   version: 4.2.0.2
-  sha256: 4a9c3964321811266d741ffe46427d117d7923ab423683b02866a99dead870c3
   requires_dist:
   - omniverse-kit==106.1.0.140981
   requires_python: ==3.10.*
-- pypi: https://files.pythonhosted.org/packages/e4/62/d717e8d687efcd26e20730ad2dd7229b907d1e9d86f92a63aad4bf8ad9fe/isaacsim_replicator-4.2.0.2.tar.gz
+- pypi: direct+https://pypi.nvidia.com/isaacsim-replicator/isaacsim_replicator-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=49e5cad782ee40db1735325278640dc9627d64d71d7a7eded053c0969dc48023
   name: isaacsim-replicator
   version: 4.2.0.2
-  sha256: 0148d003381f9f3b418df5b6d65ebbecd6b0b3e486577fc11c988b9212307e9f
   requires_dist:
   - isaacsim-core==4.2.0.2
   - isaacsim-storage==4.2.0.2
   - pillow
   requires_python: ==3.10.*
-- pypi: https://files.pythonhosted.org/packages/ad/34/f4d76df53c9210543290bc302b5a11220c556639c0189bc02a323459c091/isaacsim_rl-4.2.0.2.tar.gz
+- pypi: direct+https://pypi.nvidia.com/isaacsim-rl/isaacsim_rl-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=8297cde072f44087192f8db909bab2d4777dd6e9abc130d30796a9f812439401
   name: isaacsim-rl
   version: 4.2.0.2
-  sha256: bbf8e48bd0222472cac18111f445f55d5657696216d0240eccab4d8c129a34c8
   requires_dist:
   - isaacsim-robot==4.2.0.2
   - isaacsim-benchmark==4.2.0.2
   - gymnasium
   requires_python: ==3.10.*
-- pypi: https://files.pythonhosted.org/packages/5f/44/72dd6184e73ced8aafea52bf8cb33b30e5b596e3375b0446e98de27acab3/isaacsim_robot-4.2.0.2.tar.gz
+- pypi: direct+https://pypi.nvidia.com/isaacsim-robot/isaacsim_robot-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=b17a028d88e364d1b8810c6fa855b4e7fc35b804554adad459ea84cb2696ed29
   name: isaacsim-robot
   version: 4.2.0.2
-  sha256: b02c443e11bba28f6ed5a4311a0d98d5ccc6970b1ffc0e5f7166a3c2740b6694
   requires_dist:
   - isaacsim-sensor==4.2.0.2
   - isaacsim-robot-motion==4.2.0.2
   - osqp<1.0.0
   requires_python: ==3.10.*
-- pypi: https://files.pythonhosted.org/packages/74/8e/2d3b86995f000dc7ce9166b1848d4469866524ad129f192384685dc4847b/isaacsim_robot_motion-4.2.0.2.tar.gz
+- pypi: direct+https://pypi.nvidia.com/isaacsim-robot-motion/isaacsim_robot_motion-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=e72b6b5126f9f04cf3b401ec33b1712963b4afc2d8081822cf405288e98c19a7
   name: isaacsim-robot-motion
   version: 4.2.0.2
-  sha256: 403ad004a25beb86f3855a50cec660d3d1fad5bf7ec14fbef850ccdaed26ba0a
   requires_dist:
   - isaacsim-gui==4.2.0.2
   requires_python: ==3.10.*
-- pypi: https://files.pythonhosted.org/packages/88/b2/f6faa50ddad1285549483b4e1e7ae52c3a3c455a3073eb394878ceb34a6e/isaacsim_robot_setup-4.2.0.2.tar.gz
+- pypi: direct+https://pypi.nvidia.com/isaacsim-robot-setup/isaacsim_robot_setup-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=6f2fc9f7a00f81513468f5de77acf7d5797f698e941b1c0c119149dd675700cc
   name: isaacsim-robot-setup
   version: 4.2.0.2
-  sha256: 82b5cd763073454c8ad89057242fcf8b389cf2ea0f3f7446b781ceca0a499fe6
   requires_dist:
   - isaacsim-robot-motion==4.2.0.2
   requires_python: ==3.10.*
-- pypi: https://files.pythonhosted.org/packages/43/52/73d5c6a7eaf3cc789bff60bed4eec14b3dbb070066a8d20c07f946b67170/isaacsim_ros1-4.2.0.2.tar.gz
+- pypi: direct+https://pypi.nvidia.com/isaacsim-ros1/isaacsim_ros1-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=5543acbb212b1eda68d5f46f9634e0e6423bb61a663ea419f989f852afc85720
   name: isaacsim-ros1
   version: 4.2.0.2
-  sha256: 04ede26284332c805adc91afd3b1c42ac38ea630fc036a7c6ea1273b08a74d36
   requires_dist:
   - isaacsim-sensor==4.2.0.2
   requires_python: ==3.10.*
-- pypi: https://files.pythonhosted.org/packages/64/69/3e158a209402fac1b10cb92fac62e1ef9e6ec3f1a41a72016e357e525dff/isaacsim_ros2-4.2.0.2.tar.gz
+- pypi: direct+https://pypi.nvidia.com/isaacsim-ros2/isaacsim_ros2-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=3d7642f70c75da89e94a7cf715ee86d123761ebfe5ae252838617c3322875bd0
   name: isaacsim-ros2
   version: 4.2.0.2
-  sha256: 2b5b40f6944abe8f4fe0404b7834cbea3464dededdca90d74ff5221a5ea869e4
   requires_dist:
   - isaacsim-sensor==4.2.0.2
   requires_python: ==3.10.*
-- pypi: https://files.pythonhosted.org/packages/d2/dc/4640155628e73a99053e0cc481367c6f9e2f031f0b5d1ee41a0d96bd43a5/isaacsim_sensor-4.2.0.2.tar.gz
+- pypi: direct+https://pypi.nvidia.com/isaacsim-sensor/isaacsim_sensor-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=521d4bed279aa6b79d5c82d87d6702f605d9c058bcda876c1e8dffa1ed1468e7
   name: isaacsim-sensor
   version: 4.2.0.2
-  sha256: a72fc4a0d41ce2ba9a66e87bcc319789ab98b7a2aba0506e782c867148200325
   requires_dist:
   - isaacsim-utils==4.2.0.2
   - isaacsim-gui==4.2.0.2
   - isaacsim-storage==4.2.0.2
   - pillow
   requires_python: ==3.10.*
-- pypi: https://files.pythonhosted.org/packages/a5/3d/c21377ed8b1bf1a6f2c3ef146652f48134308e9807f6a573711acaea489e/isaacsim_storage-4.2.0.2.tar.gz
+- pypi: direct+https://pypi.nvidia.com/isaacsim-storage/isaacsim_storage-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=06c5847bfe373aee0073bd29b33a352e7c7bdfa9083de1967e6a6fac75ef7eea
   name: isaacsim-storage
   version: 4.2.0.2
-  sha256: 8ef8a94cd735e4834fd7bc0f43f89e47975704dd34cf9d19cdafed7fc3358edd
   requires_dist:
   - isaacsim-kernel==4.2.0.2
   requires_python: ==3.10.*
-- pypi: https://files.pythonhosted.org/packages/32/2c/4fd0f5d8e7ef8f57417a41bea4653d8d1439a0c30abf25b3b0d3c009421e/isaacsim_template-4.2.0.2.tar.gz
+- pypi: direct+https://pypi.nvidia.com/isaacsim-template/isaacsim_template-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=dc83a20001a0fec7ebfbf29b28371a4c4a696f265a346b06aefb0ab1f58059ac
   name: isaacsim-template
   version: 4.2.0.2
-  sha256: b888520315ef7545f4714ef37dea53221d57a0ba79705d9366817100bc440a8f
   requires_dist:
   - isaacsim-storage==4.2.0.2
   - isaacsim-gui==4.2.0.2
   requires_python: ==3.10.*
-- pypi: https://files.pythonhosted.org/packages/45/43/bc69acaf8ea438e1f2424bf7f9226c9a0caefa658f9e05bd992a96b1b42b/isaacsim_test-4.2.0.2.tar.gz
+- pypi: direct+https://pypi.nvidia.com/isaacsim-test/isaacsim_test-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=526f0e9f7ae5df073991c9d2ef83ae3627ebbdc38932bc82eb3243b8d9089b7e
   name: isaacsim-test
   version: 4.2.0.2
-  sha256: 64871c8eb593dcdba8f51f769b38b226b13504246c9b645471e89868ce00b44a
   requires_dist:
   - isaacsim-robot==4.2.0.2
   requires_python: ==3.10.*
-- pypi: https://files.pythonhosted.org/packages/a1/0d/a9247259dc72262c7d5fdca71aa774989721cc9a58b5ea418ac179e1f29e/isaacsim_utils-4.2.0.2.tar.gz
+- pypi: direct+https://pypi.nvidia.com/isaacsim-utils/isaacsim_utils-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=bf787163d85f182d08b8bd5dd61e21909c52c979cca44cb4ee06777ecdb443df
   name: isaacsim-utils
   version: 4.2.0.2
-  sha256: abab794e60e4abd296f65d0bc031557135f0d427bf501b951e1e04984c3cb28b
   requires_dist:
   - isaacsim-gui==4.2.0.2
   requires_python: ==3.10.*
@@ -1493,8 +1388,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   constrains:
   - binutils_impl_linux-64 2.43
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only
   license_family: GPL
   purls: []
@@ -1503,8 +1396,6 @@ packages:
 - conda: https://conda.anaconda.org/nvidia/linux-64/libcublas-12.4.5.8-0.tar.bz2
   sha256: 341dcb4c3bdc2a105d9352e8cddb5011dbf5c7bfedb5930fb5bae2dedb6d5c02
   md5: 1ca600f8d1329496d8c21c904be007dc
-  arch: x86_64
-  platform: linux
   size: 324199551
   timestamp: 1711452729415
 - conda: https://conda.anaconda.org/nvidia/linux-64/libcublas-dev-12.4.5.8-0.tar.bz2
@@ -1512,8 +1403,6 @@ packages:
   md5: 3f4a986f221f132d77d5b421fda721c0
   depends:
   - libcublas >=12.4.5.8
-  arch: x86_64
-  platform: linux
   size: 76659
   timestamp: 1711452843192
 - conda: https://conda.anaconda.org/nvidia/linux-64/libcublas-static-12.4.5.8-0.tar.bz2
@@ -1521,15 +1410,11 @@ packages:
   md5: 4d8fc9834c2a8dad5dfe36b866160dc6
   depends:
   - libcublas-dev >=12.4.5.8
-  arch: x86_64
-  platform: linux
   size: 367991690
   timestamp: 1711452845583
 - conda: https://conda.anaconda.org/nvidia/linux-64/libcufft-11.2.1.3-0.tar.bz2
   sha256: ddca1aedf91e825e688e4d982a25c569fe215d69814f63db350c16d693f3eac8
   md5: 19d9ed3642b9be9ca2565f52ed5ce787
-  arch: x86_64
-  platform: linux
   size: 199783504
   timestamp: 1710543633676
 - conda: https://conda.anaconda.org/nvidia/linux-64/libcufft-dev-11.2.1.3-0.tar.bz2
@@ -1537,8 +1422,6 @@ packages:
   md5: 8f30ed45d91f27edab17e53f74feae99
   depends:
   - libcufft >=11.2.1.3
-  arch: x86_64
-  platform: linux
   size: 14754
   timestamp: 1710543692819
 - conda: https://conda.anaconda.org/nvidia/linux-64/libcufft-static-11.2.1.3-0.tar.bz2
@@ -1546,15 +1429,11 @@ packages:
   md5: 51e6042340ee4f99e9f0dced4652fd31
   depends:
   - libcufft-dev >=11.2.1.3
-  arch: x86_64
-  platform: linux
   size: 402461791
   timestamp: 1710543693772
 - conda: https://conda.anaconda.org/nvidia/linux-64/libcufile-1.9.1.3-0.tar.bz2
   sha256: e820395b70a93832a3a8625c637d89c512e18b2158e43f982a74cfe05e168b60
   md5: 9cfc0beef98713d3be47f934251b5154
-  arch: x86_64
-  platform: linux
   size: 1056458
   timestamp: 1710365909934
 - conda: https://conda.anaconda.org/nvidia/linux-64/libcufile-dev-1.9.1.3-0.tar.bz2
@@ -1562,8 +1441,6 @@ packages:
   md5: aed936244622103d2ca59a308ff0f421
   depends:
   - libcufile >=1.9.1.3
-  arch: x86_64
-  platform: linux
   size: 14955
   timestamp: 1710365923835
 - conda: https://conda.anaconda.org/nvidia/linux-64/libcufile-static-1.9.1.3-0.tar.bz2
@@ -1571,15 +1448,11 @@ packages:
   md5: e87c66c78fc6406fec58301c7b0676d6
   depends:
   - libcufile-dev >=1.9.1.3
-  arch: x86_64
-  platform: linux
   size: 3793223
   timestamp: 1710365924278
 - conda: https://conda.anaconda.org/nvidia/linux-64/libcurand-10.3.5.147-0.tar.bz2
   sha256: cb15f89cfb48e735d93b0c96c81b36dd05c9b23f0d0228677016d5042bb6a928
   md5: e9406bdc4209f8cd5fdb40c8df41d3d9
-  arch: x86_64
-  platform: linux
   size: 54279240
   timestamp: 1710543564823
 - conda: https://conda.anaconda.org/nvidia/linux-64/libcurand-dev-10.3.5.147-0.tar.bz2
@@ -1587,8 +1460,6 @@ packages:
   md5: 3f0b52f4076c3d8c857664629319f1cf
   depends:
   - libcurand >=10.3.5.147
-  arch: x86_64
-  platform: linux
   size: 460690
   timestamp: 1710543587166
 - conda: https://conda.anaconda.org/nvidia/linux-64/libcurand-static-10.3.5.147-0.tar.bz2
@@ -1596,15 +1467,11 @@ packages:
   md5: f79397a11ae6036c79e346e5ba086d8d
   depends:
   - libcurand-dev >=10.3.5.147
-  arch: x86_64
-  platform: linux
   size: 54536748
   timestamp: 1710543588181
 - conda: https://conda.anaconda.org/nvidia/linux-64/libcusolver-11.6.1.9-0.tar.bz2
   sha256: 40ca27c4434bd6c5b3731e3fa359808fd31d88a5b6427e7119e19f47c43d5d94
   md5: 5f4393c1f6f28d1eaaef31fdd5005995
-  arch: x86_64
-  platform: linux
   size: 119531746
   timestamp: 1711623954011
 - conda: https://conda.anaconda.org/nvidia/linux-64/libcusolver-dev-11.6.1.9-0.tar.bz2
@@ -1612,8 +1479,6 @@ packages:
   md5: 925d1704fc89a116c60b6ff058916133
   depends:
   - libcusolver >=11.6.1.9
-  arch: x86_64
-  platform: linux
   size: 50331
   timestamp: 1711623993744
 - conda: https://conda.anaconda.org/nvidia/linux-64/libcusolver-static-11.6.1.9-0.tar.bz2
@@ -1621,15 +1486,11 @@ packages:
   md5: cf149f97ed4da98a0837cae99dcfc751
   depends:
   - libcusolver-dev >=11.6.1.9
-  arch: x86_64
-  platform: linux
   size: 79628786
   timestamp: 1711623994457
 - conda: https://conda.anaconda.org/nvidia/linux-64/libcusparse-12.3.1.170-0.tar.bz2
   sha256: 8bc0bb3636feb2e7a20cd47907d7fc6d7a28aea54c4731496f11d2a259b574f2
   md5: e5d6c740f6a6a6fb28f71cbabef7a613
-  arch: x86_64
-  platform: linux
   size: 188320273
   timestamp: 1710544351539
 - conda: https://conda.anaconda.org/nvidia/linux-64/libcusparse-dev-12.3.1.170-0.tar.bz2
@@ -1637,8 +1498,6 @@ packages:
   md5: 3d3f81963e5a36e2b66fa2e5b31cb304
   depends:
   - libcusparse >=12.3.1.170
-  arch: x86_64
-  platform: linux
   size: 186871715
   timestamp: 1710544411513
 - conda: https://conda.anaconda.org/nvidia/linux-64/libcusparse-static-12.3.1.170-0.tar.bz2
@@ -1646,8 +1505,6 @@ packages:
   md5: bd73de0134f84b2c56bf761cd30848a9
   depends:
   - libcusparse-dev >=12.3.1.170
-  arch: x86_64
-  platform: linux
   size: 193820665
   timestamp: 1710544471236
 - conda: https://conda.anaconda.org/conda-forge/linux-64/libffi-3.4.2-h7f98852_5.tar.bz2
@@ -1655,8 +1512,6 @@ packages:
   md5: d645c6d2ac96843a2bfaccd2d62b3ac3
   depends:
   - libgcc-ng >=9.4.0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   purls: []
@@ -1671,8 +1526,6 @@ packages:
   constrains:
   - libgomp 14.2.0 h77fa898_1
   - libgcc-ng ==14.2.0=*_1
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only WITH GCC-exception-3.1
   license_family: GPL
   purls: []
@@ -1683,8 +1536,6 @@ packages:
   md5: e39480b9ca41323497b05492a63bc35b
   depends:
   - libgcc 14.2.0 h77fa898_1
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only WITH GCC-exception-3.1
   license_family: GPL
   purls: []
@@ -1695,8 +1546,6 @@ packages:
   md5: cc3573974587f12dda90d96e3e55a702
   depends:
   - _libgcc_mutex 0.1 conda_forge
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only WITH GCC-exception-3.1
   license_family: GPL
   purls: []
@@ -1708,8 +1557,6 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
-  arch: x86_64
-  platform: linux
   license: 0BSD
   purls: []
   size: 111132
@@ -1717,8 +1564,6 @@ packages:
 - conda: https://conda.anaconda.org/nvidia/linux-64/libnpp-12.2.5.30-0.tar.bz2
   sha256: fbad0c1fb5737312c780d65816512d4e84b87c1a782aab90d01b250305af3891
   md5: 528dd173d5883e27ecd3cb1e25f6ec03
-  arch: x86_64
-  platform: linux
   size: 149716917
   timestamp: 1710543759259
 - conda: https://conda.anaconda.org/nvidia/linux-64/libnpp-dev-12.2.5.30-0.tar.bz2
@@ -1726,8 +1571,6 @@ packages:
   md5: fc0ff7966b2fc067b8ae0b101c75836f
   depends:
   - libnpp >=12.2.5.30
-  arch: x86_64
-  platform: linux
   size: 551586
   timestamp: 1710543810642
 - conda: https://conda.anaconda.org/nvidia/linux-64/libnpp-static-12.2.5.30-0.tar.bz2
@@ -1735,8 +1578,6 @@ packages:
   md5: 4cdb9a3f008ee3c0f1d543061b2322e6
   depends:
   - libnpp-dev >=12.2.5.30
-  arch: x86_64
-  platform: linux
   size: 145960987
   timestamp: 1710543813848
 - conda: https://conda.anaconda.org/conda-forge/linux-64/libnsl-2.0.1-hd590300_0.conda
@@ -1744,8 +1585,6 @@ packages:
   md5: 30fd6e37fe21f86f4bd26d6ee73eeec7
   depends:
   - libgcc-ng >=12
-  arch: x86_64
-  platform: linux
   license: LGPL-2.1-only
   license_family: GPL
   purls: []
@@ -1754,8 +1593,6 @@ packages:
 - conda: https://conda.anaconda.org/nvidia/linux-64/libnvfatbin-12.4.127-0.tar.bz2
   sha256: 9521855837d1463bf616818061822696e2c7eb8fb81b3515c24e4a65031dddb5
   md5: 87530433a48cf2cf5385ba5d40630b77
-  arch: x86_64
-  platform: linux
   size: 876527
   timestamp: 1710544187837
 - conda: https://conda.anaconda.org/nvidia/linux-64/libnvfatbin-dev-12.4.127-0.tar.bz2
@@ -1763,15 +1600,11 @@ packages:
   md5: 528d384524d9edf2af48102c02177958
   depends:
   - libnvfatbin >=12.4.127
-  arch: x86_64
-  platform: linux
   size: 701923
   timestamp: 1710544188897
 - conda: https://conda.anaconda.org/nvidia/linux-64/libnvjitlink-12.4.127-0.tar.bz2
   sha256: f3da19937e1a57e283b0faf8c47ecdba127f03dd427f230aacb92074cfaf9cf7
   md5: c1cd4162543f1f3aa5b3c9395d682e47
-  arch: x86_64
-  platform: linux
   size: 19094945
   timestamp: 1710544426832
 - conda: https://conda.anaconda.org/nvidia/linux-64/libnvjitlink-dev-12.4.127-0.tar.bz2
@@ -1779,15 +1612,11 @@ packages:
   md5: 3ea7ea35c34864239b442925113f83bb
   depends:
   - libnvjitlink >=12.4.127
-  arch: x86_64
-  platform: linux
   size: 18995533
   timestamp: 1710544437124
 - conda: https://conda.anaconda.org/nvidia/linux-64/libnvjpeg-12.3.1.117-0.tar.bz2
   sha256: ae7a9caa5f4b8391eccdf58475f19c34f99072678ecac071470eccd0d837482f
   md5: a74e60028f611186ca17095d2d5074d1
-  arch: x86_64
-  platform: linux
   size: 3107405
   timestamp: 1710543206669
 - conda: https://conda.anaconda.org/nvidia/linux-64/libnvjpeg-dev-12.3.1.117-0.tar.bz2
@@ -1795,8 +1624,6 @@ packages:
   md5: c3bef7506f27273e0d4c0ff87ff84628
   depends:
   - libnvjpeg >=12.3.1.117
-  arch: x86_64
-  platform: linux
   size: 13464
   timestamp: 1710543208085
 - conda: https://conda.anaconda.org/nvidia/linux-64/libnvjpeg-static-12.3.1.117-0.tar.bz2
@@ -1804,8 +1631,6 @@ packages:
   md5: 67ae255f4742f199caca56726bea92a0
   depends:
   - libnvjpeg-dev >=12.3.1.117
-  arch: x86_64
-  platform: linux
   size: 2794294
   timestamp: 1710543208451
 - conda: https://conda.anaconda.org/conda-forge/linux-64/libsqlite-3.47.2-hee588c1_0.conda
@@ -1815,8 +1640,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - libzlib >=1.3.1,<2.0a0
-  arch: x86_64
-  platform: linux
   license: Unlicense
   purls: []
   size: 873551
@@ -1826,8 +1649,6 @@ packages:
   md5: 40b61aab5c7ba9ff276c41cfffe6b80b
   depends:
   - libgcc-ng >=12
-  arch: x86_64
-  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   purls: []
@@ -1838,8 +1659,6 @@ packages:
   md5: 5aa797f8787fe7a17d1b0821485b5adc
   depends:
   - libgcc-ng >=12
-  arch: x86_64
-  platform: linux
   license: LGPL-2.1-or-later
   purls: []
   size: 100393
@@ -1852,8 +1671,6 @@ packages:
   - libgcc >=13
   constrains:
   - zlib 1.3.1 *_2
-  arch: x86_64
-  platform: linux
   license: Zlib
   license_family: Other
   purls: []
@@ -1945,8 +1762,6 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
-  arch: x86_64
-  platform: linux
   license: X11 AND BSD-3-Clause
   purls: []
   size: 894452
@@ -1989,8 +1804,6 @@ packages:
 - conda: https://conda.anaconda.org/nvidia/linux-64/nsight-compute-2024.1.1.4-0.tar.bz2
   sha256: 33935f28b007d3d5f584abd22485251ad7eea91b4b9f11c960a053fdd7be8a48
   md5: 217ed2ff255f52cbef787aba3f9b9637
-  arch: x86_64
-  platform: linux
   size: 699526661
   timestamp: 1709778043113
 - pypi: https://files.pythonhosted.org/packages/4b/d7/ecf66c1cd12dc28b4040b15ab4d17b773b87fa9d29ca16125de01adb36cd/numpy-1.26.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
@@ -2113,18 +1926,17 @@ packages:
   - rl-games==1.6.1 ; extra == 'rl-games'
   - gym ; extra == 'rl-games'
   - rsl-rl @ git+https://github.com/leggedrobotics/rsl_rl.git ; extra == 'rsl-rl'
-  - rl-games==1.6.1 ; extra == 'all'
-  - gym ; extra == 'all'
-  - rsl-rl @ git+https://github.com/leggedrobotics/rsl_rl.git ; extra == 'all'
   - robomimic @ git+https://github.com/ARISE-Initiative/robomimic.git ; extra == 'all'
   - stable-baselines3>=2.1 ; extra == 'all'
+  - rl-games==1.6.1 ; extra == 'all'
+  - rsl-rl @ git+https://github.com/leggedrobotics/rsl_rl.git ; extra == 'all'
   - skrl>=1.3.0 ; extra == 'all'
+  - gym ; extra == 'all'
   requires_python: '>=3.10'
   editable: true
-- pypi: https://files.pythonhosted.org/packages/7b/e7/85b0e2897a379375e183d53c1f2b8dac76d43b4d4316e91fef80fa905799/omniverse_kit-106.1.0.140981.tar.gz
+- pypi: direct+https://pypi.nvidia.com/omniverse-kit/omniverse_kit-106.1.0.140981-cp310-none-manylinux_2_34_x86_64.whl#sha256=a36fd335a6ddc0c5e3fae13bc7876b31873b6ce23fbd58a462d32f96f49d150c
   name: omniverse-kit
   version: 106.1.0.140981
-  sha256: 00570da637a465c2d6d9f9950e9eb9cac2a10f14879c48eb77f475c19cdf3b2d
   requires_python: ==3.10.*
 - pypi: https://files.pythonhosted.org/packages/c6/7e/5031717c0636e6074764a2f61a459a3ecd46c20d8b83a1f1cd2513a76160/onnx-1.16.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
   name: onnx
@@ -2159,8 +1971,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - ca-certificates
   - libgcc >=13
-  arch: x86_64
-  platform: linux
   license: Apache-2.0
   license_family: Apache
   purls: []
@@ -2386,8 +2196,6 @@ packages:
   - tzdata
   constrains:
   - python_abi 3.10.* *_cp310
-  arch: x86_64
-  platform: linux
   license: Python-2.0
   purls: []
   size: 25199631
@@ -2428,8 +2236,6 @@ packages:
   depends:
   - libgcc-ng >=12
   - ncurses >=6.3,<7.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only
   license_family: GPL
   purls: []
@@ -2767,8 +2573,6 @@ packages:
   depends:
   - libgcc-ng >=12
   - libzlib >=1.2.13,<2.0.0a0
-  arch: x86_64
-  platform: linux
   license: TCL
   license_family: BSD
   purls: []
