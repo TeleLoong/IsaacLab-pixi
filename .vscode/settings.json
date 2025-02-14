@@ -203,5 +203,6 @@
     "${workspaceFolder}/IsaacLab/source/isaaclab_assets",
     "${workspaceFolder}/IsaacLab/source/isaaclab_tasks",
     "${workspaceFolder}/IsaacLab/source/isaaclab_rl"
-  ]
+  ],
+  "ros.distro": "jazzy"
 }

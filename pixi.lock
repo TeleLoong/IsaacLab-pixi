@@ -195,7 +195,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/f7/9e/21f9a9d79768d0fbfaf14989a56d8dd45ca672ea7b9b2cea73ee2a7505e3/rl-games-1.6.1.tar.gz
       - pypi: git+https://github.com/ARISE-Initiative/robomimic.git#9273f9cce85809b4f49cb02c6b4d4eeb2fe95abb
-      - pypi: git+https://github.com/leggedrobotics/rsl_rl.git#9a62552fa3b9e112aead1718dfddb0474d50394a
+      - pypi: https://files.pythonhosted.org/packages/31/99/1bfb99f889458086d569afd74b9911dc61a41059d2c79c332378bbbbc51f/rsl_rl_lib-2.2.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/1b/ac/e7dc469e49048dc57f62e0c555d2ee3117fa30813d2a1a2962cce3a2a82a/s3transfer-0.11.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/c5/dc/8952caafa9a10a3c0f40fa86bacf3190ae7f55fa5eef87415b97b29cb97f/safetensors-0.5.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/17/03/390a1c5c61fd76b0fa4b3c5aa3bdd7e60f6c46f712924f1a9df5705ec046/scipy-1.15.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
@@ -876,18 +876,18 @@ packages:
   - importlib-metadata>=4.8.0 ; python_full_version < '3.10'
   - dataclasses==0.8 ; python_full_version == '3.6.*'
   - autorom[accept-rom-license]~=0.4.2 ; extra == 'accept-rom-license'
-  - imageio>=2.14.1 ; extra == 'all'
   - pygame==2.1.0 ; extra == 'all'
-  - pytest==7.0.1 ; extra == 'all'
-  - mujoco-py>=2.1,<2.2 ; extra == 'all'
+  - box2d-py==2.3.5 ; extra == 'all'
   - opencv-python>=3.0 ; extra == 'all'
   - matplotlib>=3.0 ; extra == 'all'
-  - box2d-py==2.3.5 ; extra == 'all'
   - moviepy>=1.0.0 ; extra == 'all'
-  - ale-py~=0.8.0 ; extra == 'all'
-  - lz4>=3.1.0 ; extra == 'all'
   - swig==4.* ; extra == 'all'
+  - lz4>=3.1.0 ; extra == 'all'
+  - pytest==7.0.1 ; extra == 'all'
+  - mujoco-py>=2.1,<2.2 ; extra == 'all'
   - mujoco==2.2 ; extra == 'all'
+  - ale-py~=0.8.0 ; extra == 'all'
+  - imageio>=2.14.1 ; extra == 'all'
   - ale-py~=0.8.0 ; extra == 'atari'
   - box2d-py==2.3.5 ; extra == 'box2d'
   - pygame==2.1.0 ; extra == 'box2d'
@@ -900,16 +900,16 @@ packages:
   - opencv-python>=3.0 ; extra == 'other'
   - matplotlib>=3.0 ; extra == 'other'
   - moviepy>=1.0.0 ; extra == 'other'
-  - imageio>=2.14.1 ; extra == 'testing'
   - pygame==2.1.0 ; extra == 'testing'
-  - mujoco-py>=2.1,<2.2 ; extra == 'testing'
+  - box2d-py==2.3.5 ; extra == 'testing'
+  - swig==4.* ; extra == 'testing'
   - opencv-python>=3.0 ; extra == 'testing'
   - matplotlib>=3.0 ; extra == 'testing'
-  - box2d-py==2.3.5 ; extra == 'testing'
   - moviepy>=1.0.0 ; extra == 'testing'
   - lz4>=3.1.0 ; extra == 'testing'
-  - swig==4.* ; extra == 'testing'
+  - mujoco-py>=2.1,<2.2 ; extra == 'testing'
   - mujoco==2.2 ; extra == 'testing'
+  - imageio>=2.14.1 ; extra == 'testing'
   - pytest==7.0.1 ; extra == 'testing'
   - pygame==2.1.0 ; extra == 'toy-text'
   requires_python: '>=3.6'
@@ -1180,7 +1180,7 @@ packages:
   requires_python: '>=3.9'
 - pypi: IsaacLab/source/isaaclab
   name: isaaclab
-  version: 0.33.13
+  version: 0.33.17
   sha256: ace3f2fdbca84f5cba1ac8ebdbfa5d1819d97bb2babfe0a6936cab0498a48e49
   requires_dist:
   - numpy<2
@@ -1217,7 +1217,7 @@ packages:
 - pypi: IsaacLab/source/isaaclab_rl
   name: isaaclab-rl
   version: 0.1.0
-  sha256: 61c9b259fbd125509795a7ed3a008c5d4d5ea3df3d6e30f1cbf81fbedf86275d
+  sha256: 7cf6e864a98a6d1058ae362f7580a31dee3eaf777ca01339d1dad5375b5a7d8b
   requires_dist:
   - numpy
   - torch==2.5.1
@@ -1232,20 +1232,20 @@ packages:
   - skrl>=1.4.1 ; extra == 'skrl'
   - rl-games==1.6.1 ; extra == 'rl-games'
   - gym ; extra == 'rl-games'
-  - rsl-rl-lib @ git+https://github.com/leggedrobotics/rsl_rl.git ; extra == 'rsl-rl'
+  - rsl-rl-lib>=2.1.1 ; extra == 'rsl-rl'
   - rl-games==1.6.1 ; extra == 'rl-games'
   - gym ; extra == 'rl-games'
-  - rsl-rl-lib @ git+https://github.com/leggedrobotics/rsl_rl.git ; extra == 'rsl-rl'
+  - rsl-rl-lib>=2.1.1 ; extra == 'rsl-rl'
   - stable-baselines3>=2.1 ; extra == 'all'
   - gym ; extra == 'all'
-  - skrl>=1.4.1 ; extra == 'all'
-  - rsl-rl-lib @ git+https://github.com/leggedrobotics/rsl_rl.git ; extra == 'all'
   - rl-games==1.6.1 ; extra == 'all'
+  - rsl-rl-lib>=2.1.1 ; extra == 'all'
+  - skrl>=1.4.1 ; extra == 'all'
   requires_python: '>=3.10'
   editable: true
 - pypi: IsaacLab/source/isaaclab_tasks
   name: isaaclab-tasks
-  version: 0.10.22
+  version: 0.10.24
   sha256: bc667351d40a7a8b99d34524a31086e287f38b43e198e1bb642a7cd72ba32578
   requires_dist:
   - numpy
@@ -2345,9 +2345,10 @@ packages:
   - torch
   - torchvision
   requires_python: '>=3'
-- pypi: git+https://github.com/leggedrobotics/rsl_rl.git#9a62552fa3b9e112aead1718dfddb0474d50394a
+- pypi: https://files.pythonhosted.org/packages/31/99/1bfb99f889458086d569afd74b9911dc61a41059d2c79c332378bbbbc51f/rsl_rl_lib-2.2.1-py3-none-any.whl
   name: rsl-rl-lib
   version: 2.2.1
+  sha256: 966b4025569497ae83c0085b47dc05a37ffd8f60ea917db226b23bba6f82c1ef
   requires_dist:
   - torch>=1.10.0
   - torchvision>=0.5.0
