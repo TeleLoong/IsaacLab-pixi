@@ -9,6 +9,10 @@ version = "0.1.0"
 [dependencies]
 python = "3.10.*"
 
+[activation.env]
+ISAAC_PATH = "$PIXI_PROJECT_ROOT/.pixi/envs/default/lib/python3.10/site-packages/isaacsim"
+ISAACLAB_PATH = "$PIXI_PROJECT_ROOT/IsaacLab"
+
 [feature.gpu.system-requirements]
 cuda = "11.8"
 libc = { family = "glibc", version = "2.34" }
