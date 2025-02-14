@@ -1,7 +1,7 @@
 [project]
 authors = ["Ericsii <ericfengx@foxmail.com>"]
 channels = ["nvidia", "conda-forge"]
-description = "Add a short description here"
+description = "IsaacLab environment for PIXI"
 name = "IsaacLab-pixi"
 platforms = ["linux-64"]
 version = "0.1.0"
@@ -9,43 +9,27 @@ version = "0.1.0"
 [dependencies]
 python = "3.10.*"
 
-[feature.gpu]
-system-requirements = { cuda = "11.8" }
+[feature.gpu.system-requirements]
+cuda = "11.8"
+libc = { family = "glibc", version = "2.34" }
 
 [feature.gpu.dependencies]
-cuda = "11.8"
+cuda = "==11.8"
+
+[feature.gpu.pypi-options]
+extra-index-urls = ["https://pypi.nvidia.com"]
+index-strategy = "unsafe-best-match"
 
 [feature.gpu.pypi-dependencies]
-torch = { version = "==2.4.0", index = "https://download.pytorch.org/whl/cu118" }
-isaacsim = { url = "https://pypi.nvidia.com/isaacsim/isaacsim-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=d7cec2130e81386db34bf389b5924168efe6c1a90fd686111e4741a4a50c80af" }
-isaacsim-extscache-physics = { url = "https://pypi.nvidia.com/isaacsim-extscache-physics/isaacsim_extscache_physics-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=61f13f6d1b0aeef9ab522a7c3c7ffd414ac390840ae855a80fa49d558990481b" }
-isaacsim-extscache-kit = { url = "https://pypi.nvidia.com/isaacsim-extscache-kit/isaacsim_extscache_kit-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=2ff59ec1c8fedc7505aff54d6e1a2c15739874307a97effd33680ef27f973c7a" }
-isaacsim-extscache-kit-sdk = { url = "https://pypi.nvidia.com/isaacsim-extscache-kit-sdk/isaacsim_extscache_kit_sdk-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=edceebb3325b3c4bdaf1e5b19bb1251c895daaf59348990726bfee3ca0ce7e60" }
-isaacsim-utils = { url = "https://pypi.nvidia.com/isaacsim-utils/isaacsim_utils-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=bf787163d85f182d08b8bd5dd61e21909c52c979cca44cb4ee06777ecdb443df" }
-isaacsim-app = { url = "https://pypi.nvidia.com/isaacsim-app/isaacsim_app-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=51224da7d74179055456f7a6448e940f0a186249eaaa2b77e96f368a95dc06cb" }
-isaacsim-asset = { url = "https://pypi.nvidia.com/isaacsim-asset/isaacsim_asset-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=b30a0929c5a5140906f83f4c333971196f3a9f01697fbd2abf866e26e1c7d276" }
-isaacsim-benchmark = { url = "https://pypi.nvidia.com/isaacsim-benchmark/isaacsim_benchmark-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=2de38ae6a6fc0637fa12bc29f668f3f04dad6f7c639a370b0300a48c174c098d" }
-isaacsim-code-editor = { url = "https://pypi.nvidia.com/isaacsim-code-editor/isaacsim_code_editor-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=2d4c4431fd1a5e30e169eb16695354d5956b51541689fb20b4f4167e08256675" }
-isaacsim-core = { url = "https://pypi.nvidia.com/isaacsim-core/isaacsim_core-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=ca73ce9d2ff9d693cd8fcf44e67569a2e0cbc44009e58c39506bc851d23ad2a6" }
-isaacsim-cortex = { url = "https://pypi.nvidia.com/isaacsim-cortex/isaacsim_cortex-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=7a66feb13acf9e34df35829335444adac0b37621874a7693c93813f52d39d629" }
-isaacsim-example = { url = "https://pypi.nvidia.com/isaacsim-example/isaacsim_example-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=d30e080b373b7aacd4c0d714062bd5c20597c4e08a63b2eefb329d416fa18601" }
-isaacsim-gui = { url = "https://pypi.nvidia.com/isaacsim-gui/isaacsim_gui-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=0fa88e3613499670a45dbda745ebc486426b2bafa4c868ce23e44e7396095f66" }
-isaacsim-kernel = { url = "https://pypi.nvidia.com/isaacsim-kernel/isaacsim_kernel-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=8c44f6e4a32b160682f148e098fe8fe9aec4406d2c203e6f0b0c3b48bd46313e" }
-isaacsim-replicator = { url = "https://pypi.nvidia.com/isaacsim-replicator/isaacsim_replicator-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=49e5cad782ee40db1735325278640dc9627d64d71d7a7eded053c0969dc48023" }
-isaacsim-rl = { url = "https://pypi.nvidia.com/isaacsim-rl/isaacsim_rl-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=8297cde072f44087192f8db909bab2d4777dd6e9abc130d30796a9f812439401" }
-isaacsim-robot-motion = { url = "https://pypi.nvidia.com/isaacsim-robot-motion/isaacsim_robot_motion-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=e72b6b5126f9f04cf3b401ec33b1712963b4afc2d8081822cf405288e98c19a7" }
-isaacsim-robot-setup = { url = "https://pypi.nvidia.com/isaacsim-robot-setup/isaacsim_robot_setup-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=6f2fc9f7a00f81513468f5de77acf7d5797f698e941b1c0c119149dd675700cc" }
-isaacsim-robot = { url = "https://pypi.nvidia.com/isaacsim-robot/isaacsim_robot-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=b17a028d88e364d1b8810c6fa855b4e7fc35b804554adad459ea84cb2696ed29" }
-isaacsim-ros1 = { url = "https://pypi.nvidia.com/isaacsim-ros1/isaacsim_ros1-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=5543acbb212b1eda68d5f46f9634e0e6423bb61a663ea419f989f852afc85720" }
-isaacsim-ros2 = { url = "https://pypi.nvidia.com/isaacsim-ros2/isaacsim_ros2-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=3d7642f70c75da89e94a7cf715ee86d123761ebfe5ae252838617c3322875bd0" }
-isaacsim-sensor = { url = "https://pypi.nvidia.com/isaacsim-sensor/isaacsim_sensor-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=521d4bed279aa6b79d5c82d87d6702f605d9c058bcda876c1e8dffa1ed1468e7" }
-isaacsim-storage = { url = "https://pypi.nvidia.com/isaacsim-storage/isaacsim_storage-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=06c5847bfe373aee0073bd29b33a352e7c7bdfa9083de1967e6a6fac75ef7eea" }
-isaacsim-template = { url = "https://pypi.nvidia.com/isaacsim-template/isaacsim_template-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=dc83a20001a0fec7ebfbf29b28371a4c4a696f265a346b06aefb0ab1f58059ac" }
-isaacsim-test = { url = "https://pypi.nvidia.com/isaacsim-test/isaacsim_test-4.2.0.2-cp310-none-manylinux_2_34_x86_64.whl#sha256=526f0e9f7ae5df073991c9d2ef83ae3627ebbdc38932bc82eb3243b8d9089b7e" }
-omniverse-kit = { url = "https://pypi.nvidia.com/omniverse-kit/omniverse_kit-106.1.0.140981-cp310-none-manylinux_2_34_x86_64.whl#sha256=a36fd335a6ddc0c5e3fae13bc7876b31873b6ce23fbd58a462d32f96f49d150c" }
-omni-isaac-lab = { path = "IsaacLab/source/extensions/omni.isaac.lab", editable = true }
-omni-isaac-lab_assets = { path = "IsaacLab/source/extensions/omni.isaac.lab_assets", editable = true }
-omni-isaac-lab_tasks = { path = "IsaacLab/source/extensions/omni.isaac.lab_tasks", editable = true, extras = [
+torch = { version = "==2.5.1", index = "https://download.pytorch.org/whl/cu118" }
+isaacsim = { version = "==4.5.0", extras = ["all", "extscache"] }
+isaaclab = { path = "IsaacLab/source/isaaclab", editable = true }
+isaaclab_assets = { path = "IsaacLab/source/isaaclab_assets", editable = true }
+isaaclab_tasks = { path = "IsaacLab/source/isaaclab_tasks", editable = true }
+isaaclab_mimic = { path = "IsaacLab/source/isaaclab_mimic", editable = true, extras = [
+  "all",
+] }
+isaaclab_rl = { path = "IsaacLab/source/isaaclab_rl", editable = true, extras = [
   "all",
 ] }
 
